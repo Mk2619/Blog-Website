@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');        
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Roboto&display=swap');       
+        
+        
+:root{
+    --main-bg-color: brown;
+    --font1: 'Baloo Bahina 2',cursive;
+    --font2:'Roboto', sans-serif;
+
+}   
+
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+
+        
+        .max-width-1{
+    max-width: 80vw;
+
+}
+.max-width-2{
+
+    max-width: 60vw;
+
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.m-y-2{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.form-input{
+    padding: 7px 5px;
+
+   
+    border: 3px solid black;
+    border-radius: 16px;
+    margin:0 13px;
+    font-family: var(--font1);
+
+}
+.form-box input, textarea{
+    width: 44vw;
+    padding: 10px 0px;
+    margin: 7px 0px;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-family: var(--font1);
+    font-size: 18px;
+
+
+    
+
+
+
+}
+
+.btn{
+    padding: 8px 15px;
+    border: 3px solid black;
+    border-radius: 18px;
+    font-family: var(--font1);
+
+    font-size: 14px;
+    cursor:pointer;
+
+
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
